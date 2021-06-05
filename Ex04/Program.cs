@@ -20,8 +20,8 @@ namespace Ex04
             pessoas.Add(pessoa3);
             pessoas.Add(pessoa4);
 
-            Pessoas p1 = pessoa1;
-            foreach (Pessoas p in pessoas)
+            var p1 = pessoa1;
+            foreach (var p in pessoas)
             {
                 if (p.Idade > p1.Idade)
                 {

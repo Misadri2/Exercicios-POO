@@ -53,12 +53,12 @@ namespace Ex02.Entities
             double calculoVideoGame = 0;
 
             List<Livro> livro = new List<Livro>();
-            foreach (Livro list in livro) {
+            foreach (var list in livro) {
                 calculoLivro = list.Preco * list.Qtd;
             } 
 
             List<VideoGame> game = new List<VideoGame>();
-            foreach (VideoGame videogame in game) {
+            foreach (var videogame in game) {
                 calculoVideoGame = videogame.Preco * videogame.Qtd;
             }
             double calculoTotal;
